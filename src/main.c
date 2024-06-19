@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "cybermath.h"
+#include "cyberint.h"
 
 int main(void)
 {
-    printf("%li\n", Huge());
-    return 0;
+    printf("%s\n", generate_uuid());
+    return Abs(0);
 }
