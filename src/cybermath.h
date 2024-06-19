@@ -8,7 +8,13 @@
 typedef int number;
 
 /** @brief Gives The Hightist Number */
-inline long double Huge()
+long int Huge()
 {
     return 1e10 * 120;
+}
+
+/** @brief Returns The Absolute Value*/
+inline int Abs(number num)
+{
+    return num;
 }

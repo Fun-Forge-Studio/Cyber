@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    printf("%Lf\n", Huge());
+    printf("%li\n", Huge());
     return 0;
 }
