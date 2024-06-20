@@ -33,8 +33,7 @@
         "editor.semanticHighlighting.enabled": true
     },
     "files.associations": {
-        "cyber.h": "cpp",
+        "cyber.h": "c",
         "cyberint.h": "c",
-        "stdio.h": "c"
     }
 }

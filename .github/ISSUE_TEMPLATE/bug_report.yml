@@ -1,0 +1,43 @@
+
+name: 🐛 Report a bug
+description: File a bug report.
+title: "Bug: "
+labels: ["bug"]
+assignees: "DevByEagle"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue!
+  - type: dropdown
+    id: version
+    attributes:
+      label: Witch version did you download?
+      options:
+        - 1.0.0(Alpha)
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output.
+      placeholder: |
+        Add any relevant log output here. This includes any errors or warnings.
+  - type: textarea
+    id: other-details
+    attributes:
+      label: Other details
+      description: |
+        Anything else you would like to add?
+        (screenshots, links, videos, etc.)
+      placeholder: |
+        Any other details you would like to add? You can attach files here, this includes screenshots, videos, etc.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the project's [Code of Conduct](../blob/main/.github/CODE_OF_CONDUCT.md)
+          required: true

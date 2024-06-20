@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "cyberint.h"
+#include "../include/cyber.h"
+#include "../include/cyberint.h"
 
 int main(void)
 {
-    printf("%s\n", generate_uuid());
+    printf("%i\n", Abs(Huge()));
     return Abs(0);
 }
