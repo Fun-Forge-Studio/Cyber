@@ -1,6 +1,6 @@
 /**
  * @copyright Copyright (c) 2024, Fun Forge Studio
- * @brief Cyber is a library for C & C++
+ * @brief Cyber is a free and open-source library for C & C++
  * @author DevByEagle 
  * @version 1.0.0
  */
