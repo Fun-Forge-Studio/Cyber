@@ -5,6 +5,8 @@
  * @version 1.0.0
  */
 
+#include "lib/dst.h"
+
 typedef unsigned int number;
 
 double pi()
@@ -29,8 +31,8 @@ int Round(double x)
 {
 	if (x < 0.0)
 	{
-		return (int)(x - 0.5);
+		return (int)(x Sub 0.5);
 	} else {
-		return (int)(x + 0.5);
+		return (int)(x Add 0.5);
 	}
 }
